@@ -35,8 +35,10 @@
 }
 .menu{
     width: 97vw;
-    height: 10vh;
+    min-height: 10vh;
+    max-height: 100vh;
     background-color: var(--color2);
+    
     
 }
 
@@ -54,17 +56,18 @@ a {
 .container{
     background-color: var(--color4);
     width: 97vw;
-    height: 80vh;
+    height: 100vh;
 }
 .container__articulo{
     border: 2px solid var(--color1);
     margin: 20px;
     background-color: var(--color3);
     padding: 10px;
+
 }
 .footer{
     width: 97vw;
-    height: 15vh;
+    height: 30vh;
     background-color: var(--color1);
     padding: 0;
     margin: 0;
@@ -81,4 +84,5 @@ h5{
     display: inline-block;
     margin: 0;
     padding: 0;
+    color: var(--color4);
 }
